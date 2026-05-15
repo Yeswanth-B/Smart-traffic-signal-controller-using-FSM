@@ -1,0 +1,26 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.25",
+   "Default View_TopLeft":"-213,-314",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port port-id_clk_0 -pg 1 -lvl 0 -x -40 -y -190 -defaultsOSRD
+preplace inst smart_traffic_light_0 -pg 1 -lvl 3 -x 790 -y -40 -defaultsOSRD
+preplace inst vio_0 -pg 1 -lvl 2 -x 460 -y 120 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 1 -x 150 -y -100 -defaultsOSRD
+preplace netloc vio_0_probe_out0 1 0 3 60 50 240 -60 650
+preplace netloc vio_0_probe_out1 1 0 3 50 60 250 -40 630
+preplace netloc vio_0_probe_out2 1 0 3 20 90 260 -50 620
+preplace netloc vio_0_probe_out3 1 0 3 30 80 270 -30 610
+preplace netloc vio_0_probe_out4 1 0 3 40 70 280 -20 670
+preplace netloc clk_0_1 1 0 3 60 -250 290 -90 N
+preplace netloc smart_traffic_light_0_highway 1 0 4 10 100 300 0 640J 100 940
+preplace netloc smart_traffic_light_0_side 1 0 4 -10 120 320 20 590J 90 930
+preplace netloc smart_traffic_light_0_ped_green 1 0 4 -20 130 330 10 660J 80 920
+preplace netloc smart_traffic_light_0_error 1 0 4 0 110 310 -10 600J 70 910
+levelinfo -pg 1 -40 150 460 790 960
+pagesize -pg 1 -db -bbox -sgen -120 -380 960 220
+"
+}
+
